@@ -2,8 +2,9 @@
 
 Integrantes del grupo:
 
-Anthony Yaguana
-Yober Gaona
-Daniel Saabedra
-Jessica Rivas
-Ana Panamito
+- Anthony Yaguana
+- Yober Gaona
+- Daniel Saabedra
+- Jessica Rivas
+- Ana Panamito
+  
