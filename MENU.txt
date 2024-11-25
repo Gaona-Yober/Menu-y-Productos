@@ -1,0 +1,39 @@
+//MENU
+import java.util.ArrayList;
+import java.util.List;
+
+public class Menu implements IMenu {
+    private List<String> categorias;
+    private boolean estadoActivo;
+    private double precio;
+
+
+    //constructor
+    public Menu() {
+        this.categorias = new ArrayList<>();
+    }
+    @Override
+    public void agregarCategoria(String categoria){
+        categorias.add(categoria);
+    }
+    @Override
+    public void eliminarCategoria(String categoria) {
+        if (categorias.remove(categoria)){
+            System.out.print("\nSe a eliminado la categoria: "+ categoria);
+        }else {
+            System.out.print("\nNo se a encontrado la categoria");
+        }
+    }
+
+    @Override
+    public void buscarCategoria() {}
+
+    @Override
+    public void mostrarMenu() {}
+
+    @Override
+    public void modificarPrecio(String nombre, double precio) {
+    this.precio = precio;
+    System.out.print("\n Se a modificado el precio de "+nombre+" a: $"+precio);
+    }
+}

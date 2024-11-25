@@ -1,0 +1,21 @@
+//MAIN
+
+public class Main {
+    public static void main(String[] args) {
+
+    Categoria c = new Categoria();
+    c.agregarProducto("Nose");
+    c.quitarProducto("Nose");
+
+    Menu m = new Menu();
+    m.agregarCategoria("Xd");
+    m.eliminarCategoria("Xd");
+    m.modificarPrecio("pan", 5.50);
+
+    Producto p = new Producto(":o", "nose", 4.8);
+    p.crearProducto();
+    p.eliminarProducto();
+    p.modificarDescripcion("brrr");
+
+    }
+}
